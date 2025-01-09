@@ -1,0 +1,19 @@
+.textInput {
+  padding: 14px 20px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  transition: border-color 0.3s;
+  min-height: 100px;
+
+  &:focus {
+    border-color: #1a73e8;
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: #f1f3f4;
+    cursor: not-allowed;
+  }
+}
